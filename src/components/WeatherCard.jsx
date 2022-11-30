@@ -43,7 +43,7 @@ const WeatherCard = ({
 			<ul>
 				<li></li>
 				<li>
-					<span> Wind Speed </span> {weather?.weather.speed}m/s
+					<span> Wind Speed </span> {weather?.wind.speed}m/s
 				</li>
 				<li>
 					<span>Clouds </span> {weather?.clouds.all} %
